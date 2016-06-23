@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Movie Catalog</title>
+
+</head>
+<body>
+<form name="newMovieForm" id="newMovieForm">
+    <p>Movie Title:</p>
+    <input type="text" name="movieTitle" id="movieTitle" />
+    <p>Running Time:</p>
+    <input type="number" name="runningTime" id="runningTime" />
+    <p>Year Released:</p>
+    <input type="number" name="yearReleased" id="year" />
+    <p>Genre:</p>
+    <div id="genre">
+        <input type="radio" name="genre" value="comedy" /> Comedy<br />
+        <input type="radio" name="genre" value="drama" /> Drama<br />
+        <input type="radio" name="genre" value="horror" /> Horror
+    </div>
+    <p>Description:</p>
+    <textarea name="description" id="desc"></textarea>
+    <p> </p>
+    <input type="submit" value="Add Movie" />
+</form>
+<p> </p>
+
+<ul id="movie-list">
+
+</ul>
+<script src="Day%209%20javascript.js"></script>
+</body>
+</html>

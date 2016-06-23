@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Movie Catalog</title>
+    <link rel="stylesheet" href="Day%209%20css.css">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+<h1 class="text-center bg-primary">Ryan's Movie Emporium</h1>
+<div class="container">
+    <img src="http://i1-news.softpedia-static.com/images/news2/Online-Movie-Rental-Is-Hip-2.jpg" class="img-responsive" alt="Responsive image" height="200" width="200">
+</div>
+<div class="container">
+<form class="" name="newMovieForm" id="newMovieForm">
+    <div class="col-md-4">
+        <p><u>Movie Title</u>:</p>
+        <input type="text" name="movieTitle" id="movieTitle" />
+        <p><u>Running Time</u>:</p>
+        <input type="number" name="runningTime" id="runningTime" />
+        <p><u>Year Released</u>:</p>
+        <input type="number" name="yearReleased" id="year" />
+        <p><u>Genre</u>:</p>
+        <div id="genre">
+            <input type="radio" name="genre" value="comedy" /> Comedy<br />
+            <input type="radio" name="genre" value="drama" /> Drama<br />
+            <input type="radio" name="genre" value="horror" /> Horror
+        </div>
+        <p></p>
+        <p><u>Description</u>:</p>
+        <textarea name="description" id="desc"></textarea>
+        <p> </p>
+        <input type="submit" value="Add Movie" />
+    </div>
+</form>
+</div>
+<div id="movieDetails">
+    <p>Random Details</p>
+</div>
+<p> </p>
+
+<ul id="movie-list">
+
+</ul>
+<script src="Day%209%20javascript.js"></script>
+</body>
+</html>
